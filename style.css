@@ -1,0 +1,85 @@
+body {
+    background: rgb(66, 66, 66);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+  }
+
+.gamePad {
+    background-image:url("https://cdn.pixabay.com/photo/2016/06/02/02/33/triangles-1430105_960_720.png") ;
+    opacity: 70%;
+    height: 450px;
+    width: 800px;
+    border: 2px solid;
+    border-color: yellow;
+}
+
+.cell {
+    background-color: yellow;
+    width: 70px;
+    height: 70px;
+    border: 1px solid;
+    border-radius: 5px;
+    border-width: 3px;
+    cursor: pointer;
+    text-align: center;
+    font-size: 25px;
+    color: black;
+    font-family: monospace;
+    font-weight: 1000;
+    align-items: center
+}
+
+.box {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    width: 160px;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 1000;
+    -webkit-text-stroke: 1.5px orange;
+    -webkit-text-fill-color: purple;
+}
+
+h3 {
+    text-align: center;
+    font-family: monospace;
+    font-weight: 900;
+    font-size: xx-large;
+    
+}
+
+#btn {
+    background-color: aqua;
+    color: black;
+    font-weight: 800;
+    font-size: larger;
+    font-family: monospace;
+    font-size: large;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.but{
+    text-align: center;
+}
+
+/* for blured background
+.blur {
+    background-image:url("https://cdn.pixabay.com/photo/2016/06/02/02/33/triangles-1430105_960_720.png") ;
+    filter: blur(3px);
+    -webkit-filter: blur(3px);
+    opacity: 70%;
+    height: 450px;
+    width: 800px;
+    border: 2px solid;
+    border-color: yellow;
+    position: absolute;
+} */
