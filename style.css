@@ -19,7 +19,7 @@ body {
 .cell {
     background-color: yellow;
     width: 70px;
-    height: 70px;
+    height: 55px;
     border: 1px solid;
     border-radius: 5px;
     border-width: 3px;
@@ -29,7 +29,7 @@ body {
     color: black;
     font-family: monospace;
     font-weight: 1000;
-    align-items: center
+    padding: 15px 0px 0px 0px;
 }
 
 .box {
